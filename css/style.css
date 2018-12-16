@@ -41,7 +41,11 @@ h1, h2{
 h3 {
 	text-transform: uppercase;
 	margin-bottom: 2rem;
-	font-weight: bold;
+
+}
+
+span.ttn {
+	text-transform: none;
 }
 .container {
 	max-width: 1300px;
@@ -163,15 +167,16 @@ footer {
 .unicorn-mobile {
 	width:120%;
 	height: 100%;
+	right: -20%;
 }
 .yeti-mobile{
-	left: -10%;
-}
-.unicorn-mobile {
-	right: -10%;
+	left: -30%;
 }
 .centaur-mobile {
-	right: -10%;
+	right: -20%;
+}
+.bigfoot-mobile {
+	right: -30%;
 }
 
 @media screen and (max-width: 769px) {
@@ -199,10 +204,31 @@ footer {
 		background-image: url(../img/background_pattern.svg);
 		background-size: 400%;
 	}
-
+	body {
+		font-size: 85%;
+	}
+	h1 {
+		font-size: 1.8rem;
+		margin-bottom: 1rem;
+	}
+	h2 {
+		font-size: 1.4rem;
+		margin-bottom: 1rem;
+	}
+	h3 {
+		font-size: 1.3rem;
+		margin-bottom: 1rem;
+	}
+	.dragon {
+		margin-left: -30%;
+	}
 	.container{
 		padding-left: 30px;
 		padding-right: 30px;
+	}
+	.height-container {
+		position: relative;
+		min-height: 150px;
 	}
 }
 
