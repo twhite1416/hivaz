@@ -113,6 +113,7 @@ a {
 	font-weight: bold;
 	display: inline-block;
 	text-decoration: none !important;
+	z-index: 999;
 }
 a::after {
 	content: '';
@@ -249,7 +250,7 @@ footer {
 	}
 	.height-container {
 		position: relative;
-		min-height: 150px;
+		min-height: 280px;
 	}
 }
 
