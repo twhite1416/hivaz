@@ -108,6 +108,26 @@ img {
 .green {
 	color: #B6D131;	
 }
+a {
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none !important;
+}
+a::after {
+	content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #FFF;
+    transition: width .3s;
+}
+a:hover {
+	color: white;
+}
+a:hover::after {
+    width: 120%;
+}
 h3.toggle {
 	cursor: pointer;
 	margin-bottom: 1rem;
