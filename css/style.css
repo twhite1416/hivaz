@@ -180,8 +180,8 @@ span.circle.purple.selected {
 
 footer {
 	margin-top: 100px;
-	height: 150px;
 	background-color: #352c42;
+  font-size: 14px;
 }
 .yeti-mobile {
 	width: 100%;
